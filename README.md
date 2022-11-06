@@ -36,9 +36,8 @@ GROUP BY genres.name;
 
 貼っておいた方が良いと考えるインデックス
 
-インデックス名  
-`items_name_id`
+`items`テーブルへ`items_name_id`インデックスを追加した方がいいと考えます。
 
 理由  
 今後、「apple」や「potato」といった特定のレコードが何度も追加されることを想定したためです。  
-itemsテーブルのnameカラムをIDに置き換え、item_nameテーブルを作成し、「apple」等の商品名はID化した方が管理しやすいかと考えました。
+`items`テーブルの`name`カラムをIDに置き換え、`item_name`テーブルを作成し、「apple」等の商品名はID化した方が管理しやすいかと考えました。
