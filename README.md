@@ -20,6 +20,15 @@ FROM items INNER JOIN genres ON items.genre_id = genres.id
 GROUP BY genres.name;
 ```
 
+想定している結果
+
+|  ジャンル名  |  平均値  |
+| ---- | ---- |
+|  drink  |  300  |
+|  fruit  |  75  |
+|  vegetable  |  100  |
+
+
 理由  
 - itemsテーブルとgenresテーブルを結合するためにJOIN文を使う
 - ジャンルごとにカテゴリ分けするためにGROUP BY文を使う
