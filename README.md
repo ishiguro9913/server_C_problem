@@ -24,9 +24,9 @@ GROUP BY genres.name;
 
 |  ジャンル名  |  平均値  |
 | ---- | ---- |
-|  drink  |  300  |
-|  fruit  |  75  |
-|  vegetable  |  100  |
+|  drink  |  350  |
+|  fruit  |  98  |
+|  vegetable  |  150  |
 
 
 理由  
